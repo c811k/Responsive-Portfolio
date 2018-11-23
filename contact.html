@@ -1,56 +1,42 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Contact | Your Name</title>
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- <script src="main.js"></script> -->
 </head>
-
 <body>
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Contact</h1>
-
-      <form id="contact-form">
-        <ul>
-          <li>
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
-          </li>
-          <li>
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
-          </li>
-          <li>
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required="required"></textarea>
-          </li>
+    <div class="header">
+        <ul class="navbar">
+            <li style="float: left"><h1 class="logo">Caleb Kang</h1></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="divider">|</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a class="divider">|</a></li>
+            <li><a href="index.html">About</a></li>
         </ul>
-        <input type="submit">
-      </form>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy; 
     </div>
-  </footer>
-</body>
+        
+    <div class="content">
+        <h1>Contact</h1>
+        <hr>
+        <form>
+            Name<br>
+            <input type="text" name="name" value="John Doe"><br>
+            E-mail<br>
+            <input type="email" name="email" value="example@gmail.com"><br>
+            Message<br>
+            <textarea name="message" rows="20" cols="1"></textarea><br>
+            <button class="botton">Submit</button>
 
+        </form>
+    </div>
+
+    <footer>
+        <h6>Copyright ©</h6>
+    </footer>
+</body>
 </html>
